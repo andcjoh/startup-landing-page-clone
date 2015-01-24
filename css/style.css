@@ -64,6 +64,11 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased; /*make the fonts look cleaner */
 }
 
 .top-navigation > .content {
@@ -74,5 +79,31 @@ div {
 
 .logo {
 	margin-top: 14px;
-	margin-left: 14px;
+	padding: 0px 15px;
 }
+
+.links {
+	float: right;
+}
+
+.links > li {
+	display: inline-block;
+	margin-top: 25px;
+	padding-left: 20px;
+}
+
+.active {
+	color: #4c5058;
+	font-weight: 600;
+}
+
+.links a:link {
+	text-decoration: none;
+	color: #838994;
+}
+
+.links a:hover {
+	color: #4c5058;
+}
+
+
