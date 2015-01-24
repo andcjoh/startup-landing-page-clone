@@ -78,8 +78,10 @@ ol, ul {
 }
 /* Navigation Section */
 .top-navigation {
-
     background-color: #fff;
+    position: fixed; /* so that we see the menu when we scroll down */
+    width: 100%; /* to keep the width when we use position:fixed */
+    z-index: 9999;
 }
 .top-navigation > .content {
     height: 70px;
@@ -160,6 +162,31 @@ ol, ul {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+.cases {
+	display: flex; /* get rid of space between blicks */
+	height: 4em;
+}
+
+.cases .devices {
+    width: 33.33%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases .devices img {
+	height: 157px;
+	width: 157px;
+}
+
+.content2 {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	font-size: 2em;
+	text-align: center;
+}
+
 
 
 
