@@ -48,3 +48,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Start the code here */
+/* Take the background color and border 
+away from the divs once you are done */
+
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto; /* makes the content always centered */
+}
