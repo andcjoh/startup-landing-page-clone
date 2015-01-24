@@ -162,6 +162,10 @@ ol, ul {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+.section3 {
+	width: 100%;
+	height: 350px;
+}
 .cases {
 	display: flex; /* get rid of space between blicks */
 	height: 4em;
@@ -187,6 +191,23 @@ ol, ul {
 	text-align: center;
 }
 
+
+.social .content li {
+	list-style: none;
+	display: inline;
+}
+.social > p {
+	text-align: center;
+}
+.social .content li i {
+	border: 1px solid #999;
+	padding: 10px;
+	border-radius: 1.25rem;
+}
+
+.social .copy {
+	color: #838994;
+}
 
 
 
