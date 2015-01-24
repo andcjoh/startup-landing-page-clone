@@ -54,7 +54,7 @@ table {
 away from the divs once you are done */
 
 body {
-	background-color: LightGray;
+
     font-family: 'Roboto', sans-serif;
 }
 div {
@@ -208,8 +208,3 @@ ol, ul {
 .social .copy {
 	color: #838994;
 }
-
-
-
-
-
