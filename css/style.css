@@ -57,9 +57,9 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
+} */
 
 /* Navigation Section */
 
@@ -129,6 +129,7 @@ ol, ul {
 .introduction h1, h3 {
 	color: white;
 	text-align: center;
+	font-weight: lighter;
 }
 
 .introduction h1 {
