@@ -194,7 +194,9 @@ ol, ul {
 
 .social .content li {
 	list-style: none;
-	display: inline;
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 .social > p {
 	text-align: center;
@@ -203,6 +205,7 @@ ol, ul {
 	border: 1px solid #999;
 	padding: 10px;
 	border-radius: 1.25rem;
+	margin: 0 auto;
 }
 
 .social .copy {
