@@ -190,20 +190,27 @@ ol, ul {
 }
 
 
-.social .content li {
-	list-style: none;
-	display: inline-block;
-	width: 2.5rem;
-	height: 2.5rem;
-}
+
 .social > p {
 	text-align: center;
 }
-.social .content li i {
-	border: 1px solid #999;
-	padding: 10px;
+.social .content li {
 	border-radius: 1.25rem;
-	margin: 0 auto;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
 }
 
 .social .copy {
