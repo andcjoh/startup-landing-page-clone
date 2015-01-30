@@ -92,11 +92,9 @@ div {
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
+
 .introduction {
-    background-image: url('../img/first-background.jpg');
+    background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,9 +115,8 @@ div {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
+
+
 .introduction .buttons {
     color: white;
     text-align: center;
@@ -132,14 +129,6 @@ div {
     vertical-align: bottom;
     font-size: 1.125rem;
     line-height: 1.2;
-}
-/**
- * The buttons
- */
-.introduction .buttons {
-    color: white;
-    text-align: center;
-    margin-top: 1.563rem;
 }
 
 button {
