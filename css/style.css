@@ -55,7 +55,7 @@ div {
 :focus {
     outline: none; /* to avoid an outline to appear for this element */
 }
-*/
+
 
 /**
  * Navigation Section
@@ -96,7 +96,7 @@ div {
  * Introduction Section
  */
 .introduction {
-    background-image: url('../images/first-background.jpg');
+    background-image: url('../img/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +107,7 @@ div {
 .introduction h3 {
     color: white;
     text-align: center;
-    font-weight: 300; /* 100-700, 400 normal */
+    font-weight: 300;
 }
 .introduction h1 {
     margin-top: 17.5rem;
@@ -116,6 +116,22 @@ div {
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+}
+/**
+ * The buttons
+ */
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
 }
 /**
  * The buttons
